@@ -1,5 +1,11 @@
-p{
-    color: red;
-    display: block;
-    text-transform: lowercase;
+@import './base/fonts';
+
+p {
+  color: red;
+  display: block;
+  text-transform: lowercase;
+}
+
+* {
+  font-family: 'Noto Sans KR', sans-serif;
 }
